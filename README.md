@@ -1,3 +1,17 @@
+> AUR package coming soon.
+
+## how to install
+
+- clone repo
+
+```
+# Install to local dir
+kpackagetool6 -t Plasma/Applet -i /home/user/repos/qt/plasma-applet-net-bandwidth-monitor_qt6
+
+# if already installed, upgrade it:
+kpackagetool6 -t Plasma/Applet -u /home/user/repos/qt/plasma-applet-net-bandwidth-monitor_qt6
+```
+
 ![widget_v6_logo2](https://github.com/user-attachments/assets/5277fff0-703a-4829-be45-dc447ddbdcba) ![1a](https://user-images.githubusercontent.com/72889808/217653034-4ed63b12-875b-4001-84f7-b3159d933a99.png)
 
 # plasma-applet-net-bandwidth-monitor_qt6
