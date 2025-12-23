@@ -1046,6 +1046,15 @@ Item {
     NetworkMonitor {
         id: networkMonitor
     }
+
+    Connections {
+        target: networkMonitor
+        function onNetworkInterfaceChanged() {      // TRIGGERED WHEN NETWORK INTERFACE CHANGES
+            dbusData.unsubscribe(sensorList)
+            if ( !ready )   return
+            else            addSources()
+        }
+    }
     // THIS WORKS - CALLS NetworkMonitor.qml function
     // function monitorNetworkChanges() {
     //     networkMonitor.test()
