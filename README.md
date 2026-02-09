@@ -16,8 +16,12 @@ kpackagetool6 -t Plasma/Applet -i /home/user/repos/qt/plasma-applet-net-bandwidt
 kpackagetool6 -t Plasma/Applet -u /home/user/repos/qt/plasma-applet-net-bandwidth-monitor_qt6
 ```
 
-![widget_v6_logo2](https://github.com/user-attachments/assets/5277fff0-703a-4829-be45-dc447ddbdcba) ![1a](https://user-images.githubusercontent.com/72889808/217653034-4ed63b12-875b-4001-84f7-b3159d933a99.png)
+# This fork
 
+- Fixes an issue where the counter freezes due to network adapter change.
+
+![widget_v6_logo2](https://github.com/user-attachments/assets/5277fff0-703a-4829-be45-dc447ddbdcba) ![1a](https://user-images.githubusercontent.com/72889808/217653034-4ed63b12-875b-4001-84f7-b3159d933a99.png)
+  
 # plasma-applet-net-bandwidth-monitor_qt6
 
 Network bandwidth monitor for KDE Plasma v6.+ using dbus.
@@ -26,68 +30,6 @@ KDE Plasma 6 widget that displays network bandwidth data. Built upon the foundat
 
 I've taken the UI element from netspeed-widget and the dbus workings from system-monitor, glued them together and added many additional options. This widget doesn't need ksysguard to function.
 This is extremely BETA software and the first plasma widget I've worked on. If you find something or many things that aren't working, let me know and I'll take a look when I can.
-
-## v6.2025.4.20
-
-Another bug fix release.
-
-- Fixed widgetshow wrong speed [bug_#6].
-- Fixed Speed Unit Selection ignore higher conversions [bug_#5].
-- Fixed Network Settings page, interface list hierarchy issue [bug_#4].
-- Fixed Updating from 'Install Widget From Local File' error [bug_#3].
-
-## v6.2025.4.17
-
-Bug Fix Release.
-
-- Fixed issue with bandwidth being stuck in bits and kbits only.
-- added different version of bstrong5280 DBUS file for better compatability with kubuntu.
-
-## v6.2025.4.4
-
-Added multiple colour selection options with custom colour picker, options: Default Theme, Base Colour and Speed Based Colours.
-
-- Base Colour, each element can be assign its own hardcoded colour.
-- Speed Colour, icons or digits or suffix (or all of the row of the three elements) can be assigned colours based on if the speed is in bit, Kil, Meg or Gig.
-- Default Theme, will respect the underlying default theme colours.
-
-Added option to toggle speed units on or off. If 'bit' is disabled, speed values will only be displayed in 'Kil' units, etc.
-Added option to remove decimal place and fraction digits at idle, only '0' will be displayed vs '0.0'.  
-Continued code improvements.  
-Improved theming and layout in settings panel.
-
-Fixes:
-Text colour in settings section now uses the correct theme text colour.
-
-##
-
-Thanks to all those that feedback their experiences using the widget and the thanks received.
-
-## DONATIONS
-
-I like money. Donations are very much welcomed and appreciated.
-
-### Fiat Currency:
-
-| Provider                                                                    | Address                                           |
-| --------------------------------------------------------------------------- | ------------------------------------------------- |
-| [**Paypal**](https://www.paypal.com/donate/?hosted_button_id=EJ3ZRERP2DK5Q) | paypal.com/donate/?hosted_button_id=EJ3ZRERP2DK5Q |
-
-### Crypto Currency:
-
-| Crypto           | ID      | Address                                        |
-| ---------------- | ------- | ---------------------------------------------- |
-| **Bitcoin**      | **BTC** | `bc1q9qec2027k8qlx4xuyhpzqe4gvc60faw3feg4zz`   |
-| **Ethereum**     | **ETH** | `0x7260F14749D468FD6b91b12Ed1329239F5e54b1A`   |
-| **Binance**      | **BNB** | `bnb1f4vw559m6ggel0y876y4ukc8q0xusqyvev8elq`   |
-| **Solana**       | **SOL** | `9azTT48gmVxFQeKLGqg7rRw58tPokBP4MkycLEW2Fq1S` |
-| **XRP**          | **XRP** | `r39tUB4AyWCwRS7bexsZ6tYW372vptj351 `          |
-| **Bitcoin Cash** | **BCH** | `qpc552eputvg4qk2nlmm8gzg2s9qkrr83cm9dpjjs9`   |
-| **Litecoin**     | **LTC** | `ltc1qkg9wg8t8alz5ltmyct3rs247qy98nv58qjdm2y`  |
-
-## IF EXPERIENCING ISSUES AFTER INSTALL / UPGRADE:
-
-When upgrading via the Plasma 'get widgets' section, make sure you have the new version in the 'about' section. If in doubt, download the .plasmoid and install via commandline with `plasmapkg2 -i /PATH/xxx.plasmoid`. Once installed, I've found its a good idea to reboot or log out and in again, it seems to refresh the serialized stored settings.
 
 ## OPTIONS:
 
