@@ -1,26 +1,30 @@
 {
-    "KPlugin": {
-        "Authors": [
-            {
-                "Name": "LeeVD",
-                "Email": "thoth360@hotmail.com"
-            }
-        ],
-        "Name": "Network Bandwidth DBUS Widget",
-        "Description": "Plasma v6 Network speed widget powered by DBUS.",
-        "Name[zh_CN]": "Network Bandwidth DBUS Widget",
-        "Description[zh_CN]": "网络速度",
-        "Id": "com.github.leevd.nswqt6",
-        "Version": "6.2025.4.20",
-        "Icon": "org.kde.plasma.network-wired",
-        "Category": "Network Monitoring",
-        "KPackageStructure": [
-            "Plasma/Applet"
-        ],
-        "EnabledByDefault": true,
-        "License": "GPL3",
-        "Website": "https://github.com/leevd"
-    },
-    "KPackageStructure": "Plasma/Applet",
-    "X-Plasma-API-Minimum-Version": "6.0"
+  "KPlugin": {
+    "Authors": [
+      {
+        "Name": "uwuclxdy",
+        "Email": "uwuclxdy@pm.me"
+      },
+      {
+        "Name": "LeeVD",
+        "Email": "thoth360@hotmail.com"
+      }
+    ],
+    "Name": "Network Bandwidth DBUS Widget",
+    "Description": "Plasma v6 Network speed widget powered by DBUS.",
+    "Name[zh_CN]": "Network Bandwidth DBUS Widget",
+    "Description[zh_CN]": "网络速度",
+    "Id": "com.github.leevd.nswqt6",
+    "Version": "6.2025.4.21",
+    "Icon": "org.kde.plasma.network-wired",
+    "Category": "Network Monitoring",
+    "KPackageStructure": [
+      "Plasma/Applet"
+    ],
+    "EnabledByDefault": true,
+    "License": "GPL3",
+    "Website": "https://github.com/uwuclxdy/plasma-applet-net-bandwidth-monitor_qt6"
+  },
+  "KPackageStructure": "Plasma/Applet",
+  "X-Plasma-API-Minimum-Version": "6.0"
 }
