@@ -6,14 +6,14 @@ git clone https://github.com/uwuclxdy/plasma-applet-net-bandwidth-monitor_qt6.gi
 cd plasma-applet-net-bandwidth-monitor_qt6
 ```
 
-### Install to local dir
+### Install
 ```bash
-kpackagetool6 -t Plasma/Applet -i /home/user/repos/qt/plasma-applet-net-bandwidth-monitor_qt6
+kpackagetool6 -t Plasma/Applet -i /home/user/plasma-applet-net-bandwidth-monitor_qt6
 ```
 
-### updating:
+### Updating (if already installed):
 ```bash
-kpackagetool6 -t Plasma/Applet -u /home/user/repos/qt/plasma-applet-net-bandwidth-monitor_qt6
+kpackagetool6 -t Plasma/Applet -u /home/user/plasma-applet-net-bandwidth-monitor_qt6
 ```
 
 # This fork
@@ -21,7 +21,7 @@ kpackagetool6 -t Plasma/Applet -u /home/user/repos/qt/plasma-applet-net-bandwidt
 - Fixes an issue where the counter freezes due to network adapter change.
 
 ![widget_v6_logo2](https://github.com/user-attachments/assets/5277fff0-703a-4829-be45-dc447ddbdcba) ![1a](https://user-images.githubusercontent.com/72889808/217653034-4ed63b12-875b-4001-84f7-b3159d933a99.png)
-  
+
 # plasma-applet-net-bandwidth-monitor_qt6
 
 Network bandwidth monitor for KDE Plasma v6.+ using dbus.
